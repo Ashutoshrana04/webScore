@@ -1,0 +1,318 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	padding: 0;
+	margin: 0;
+
+}
+/* start nav coding */
+nav{
+	width: 100%;
+	padding:10px 100px;
+	display: flex;
+	justify-content: center;
+	background: #82e8f1;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+}
+.brandBox h2{
+	padding: 0;
+	margin: 0;
+	margin-top: 4px;
+	color: black;
+	font-family:'PT Serif',sans-serif;
+	
+}
+.menusBox{
+	position: relative;
+	top: -290px;
+	right: 50px;
+}
+.menusBox ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 10px;
+	
+	
+}
+.menusBox a{
+	text-decoration: none;
+	color:orangered;
+	font-family: sans-serif;
+}
+.menusBox li{
+	padding: 10px;
+
+}
+.menusBox #login-btn{
+	background:#a2ebad;
+	padding-left:20px;
+	padding-right:20px;
+	border-radius: 30px;
+	cursor: pointer;
+	box-shadow:0px 0px 2px #323232;
+	border:1px solid black;
+}
+.menusBox #login-btn a{
+	color:black ;
+	font-weight: bolder;
+	font-family: verdana;
+}
+
+/* end nav coding */
+
+/*  end header section coding  */
+
+.header-section{
+	width: 100%;
+	height:100vh;
+	background:#76dde6;
+	margin-top:50px;
+	
+}
+.left-section{
+	width: 50%;
+	height: 100%;
+	float: left;
+	
+	padding: 60px;
+	padding-left:100px;
+	display:flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.left-section h1{
+	padding: 0;
+	margin: 0;
+	color: black;
+	width: 500px;
+	font-size:50px;
+	font-family: sans-serif;
+	word-spacing: 5px;
+	line-height: 70px;
+	
+}
+.left-section p{
+	padding: 0;
+	margin: 0;
+	color: black;
+	width: 400px;
+	font-family: cursive;
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-size:25px;
+}
+.left-section button{
+	padding: 20px 40px;
+	border: none;
+	border:2px solid black;
+	border-radius:30px;
+	color:black;
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #323232;
+	font-size:20px;
+	background:#28c8a3 ;
+}
+.left-section button:hover{
+	transform: scale(0.9);
+	transition:0.3s all ease;
+}
+.left-section button:not(:hover){
+	transform: scale(1);
+	transition:0.3s all ease;
+}
+
+.right-section{
+	width: 50%;
+	height: 90vh;
+	float: left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.right-section .right-img{
+	
+	
+	
+}
+.right-section .right-img img{
+	width: 500px;
+	height: 500px;
+	
+}
+
+/*  end header section coding  */
+
+/* start coding for feature */
+
+.feature{
+	
+}
+.feature h1{
+	font-family: verdana;
+	margin: 0;
+	padding: 0;
+	margin: 20px 0px;
+	text-align: center;
+}
+.feature .bottom-bar{
+	width: 120px;
+	height:5px;
+	background:#ddd;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.feature-box{
+	padding:30px ;
+}
+.feature-left{
+	width: 50%;
+	height: 400px;
+	
+	float: left;
+	padding:0px 90px;
+	box-sizing: border-box;
+
+}
+.feature-box img{
+	width: 300px;
+}
+.feature-right{
+	width: 50%;
+	height: 500px;
+	
+	float: left;
+	padding: 0px 90px ;
+	box-sizing: border-box;
+
+}
+
+
+/* end coding for feature */
+
+/* start social media coding */
+
+/* .social-heading{
+	display:flex;
+	
+	flex-direction: column;
+	align-items: center;
+
+}
+.social-heading h1{
+	font-family:Verdana;
+	font-size: 37px;
+	padding-top:30px;
+
+}
+.social-heading p{
+	width: 650px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: verdana;
+	font-size:20px;
+	color: grey;
+}
+.social-img{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	display:flex;
+	justify-content: center;
+	gap: 10px;
+}
+.social-img .social-box{
+	width: 150px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+.social-img button{
+	border: none;
+	background:white;
+	font-size: 28px;
+	font-family: calibri;
+	font-weight: bold;
+} */
+
+
+/* start social media coding */
+
+/* start footer coding */
+.subs-box{
+	background: white;
+	padding: 60px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+.subs-box h1{
+	padding: 0;
+	margin: 0;
+	padding-right:40px;
+	font-family: sans-serif;
+	color: black;
+}
+
+.subs-box form input[type=email]{
+	width:350px;
+	border: none;
+	background: white;
+	padding:20px ;
+	border-radius: 15px;
+	border:1px solid black;
+}
+.subs-box form input[type=button]{
+	border: none;
+	border-radius: 15px;
+	color:black ;
+	padding: 20px 33px;
+	font-weight: bold;
+	font-family: sans-serif;
+	border:1px solid black;
+}
+footer{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	padding:20px 0px;
+}
+footer h1{
+	font-family:'PT Serif',sans-serif;
+}
+footer .social{
+	display: flex;
+	gap:20px;
+}
+footer .footer-menu ul{
+	display: flex;
+	list-style: none;
+	gap: 10px;
+}
+footer .footer-menu ul a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+/* end footer coding */

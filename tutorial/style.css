@@ -1,0 +1,19 @@
+h1{
+    font-family:calibri;
+}
+
+
+#next-button{
+    width: 100px;
+    height: 40px;
+    float: right;
+    color: red;
+    font-weight: bold;
+}
+#prev-button{
+    width: 100px;
+    height: 40px;
+    float: left;
+    color: red;
+    font-weight: bold;
+}
